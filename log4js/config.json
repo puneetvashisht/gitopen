@@ -1,0 +1,15 @@
+{
+  "appenders": [
+    {
+      "type": "file",
+      "level": "TRACE",
+      "filename": "./logs/server_log.log",
+      "maxLogSize": 10485760,
+      "backups": 10
+    },
+    {
+      "type": "console",
+      "level": "TRACE"
+    }
+  ]
+}

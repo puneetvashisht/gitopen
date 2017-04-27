@@ -1,0 +1,383 @@
+[2017-01-18 12:45:02.354] [INFO] MyLogger - The magic happens on  localhost:4000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:45:02.368] [INFO] MyLogger - The magic happens on  localhost:4000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:45:02.359] [INFO] MyLogger - The magic happens on  localhost:4000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:45:02.378] [INFO] MyLogger - The magic happens on  localhost:4000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:45:59.541] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:45:59.542] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:46:00.073] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:46:01.806] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:52:24.105] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:52:24.106] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:52:24.188] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:52:25.947] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:53:20.515] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:53:20.514] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:53:20.935] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:53:22.370] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:55:54.839] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:55:54.846] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:55:57.571] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 12:55:58.449] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-115:16)
+[2017-01-18 13:02:04.633] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-18 13:02:06.375] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-18 13:02:06.390] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-18 13:02:06.899] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:05:02.082] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:05:02.104] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:05:02.815] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:05:03.143] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:06:19.534] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:06:20.041] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:06:21.485] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:06:21.547] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:07:21.977] [DEBUG] MyLogger - { email: 'puneetvashisht@gmail.com', password: 'tkhts@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-6:10)'
+[2017-01-19 15:07:46.742] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:07:46.760] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:07:47.906] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:07:48.089] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:07:51.603] [DEBUG] MyLogger - { email: 'puneetvashisht@gmail.com', password: 'tkhts@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-6:10)'
+[2017-01-19 15:12:39.309] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-6:10)'
+[2017-01-19 15:13:08.525] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:13:09.169] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:13:09.258] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:13:09.312] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:13:12.574] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-13:10)'
+[2017-01-19 15:13:12.597] [DEBUG] MyLogger - false ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-14:10)'
+[2017-01-19 15:16:34.334] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:16:34.768] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:16:34.904] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:16:35.882] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:16:40.212] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-13:10)'
+[2017-01-19 15:16:40.235] [DEBUG] MyLogger - true ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-14:10)'
+[2017-01-19 15:21:18.807] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:21:19.581] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:21:19.796] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:21:20.600] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:21:25.785] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-13:10)'
+[2017-01-19 15:25:15.782] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:25:16.310] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:25:16.631] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:25:16.832] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:25:48.534] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-14:10)'
+[2017-01-19 15:25:48.579] [DEBUG] MyLogger - finding Users :>> log at <anonymous> (app\routes\internalUse\user.js-27:12)
+[2017-01-19 15:25:48.580] [DEBUG] MyLogger - [ { _id: 586220a2f541056c16b0b37e,
+    __v: 0,
+    local: 
+     { password: '$2a$08$xGH76pwQ3Z9i0sHKeeQXuuJ1BUbgJZQqSCENeS6RjVjzDZdi4kxoe',
+       email: 'puneetvashisht@gmail.com' } } ] ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-29:12)'
+[2017-01-19 15:35:27.297] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:35:28.359] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:35:28.361] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:35:28.595] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:36:15.426] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:36:15.440] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:36:15.653] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:36:16.048] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:36:19.416] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-14:10)'
+[2017-01-19 15:36:19.461] [DEBUG] MyLogger - finding Users :>> log at <anonymous> (app\routes\internalUse\user.js-19:12)
+[2017-01-19 15:36:19.462] [DEBUG] MyLogger - [ { _id: 586220a2f541056c16b0b37e,
+    __v: 0,
+    local: 
+     { password: '$2a$08$xGH76pwQ3Z9i0sHKeeQXuuJ1BUbgJZQqSCENeS6RjVjzDZdi4kxoe',
+       email: 'puneetvashisht@gmail.com' } } ] ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-21:12)'
+[2017-01-19 15:37:03.798] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:37:05.103] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:37:05.810] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:37:05.941] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 15:37:08.322] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-14:10)'
+[2017-01-19 15:37:08.368] [DEBUG] MyLogger - finding Users :>> log at <anonymous> (app\routes\internalUse\user.js-19:12)
+[2017-01-19 15:37:08.369] [DEBUG] MyLogger - [ { _id: 586220a2f541056c16b0b37e,
+    __v: 0,
+    local: 
+     { password: '$2a$08$xGH76pwQ3Z9i0sHKeeQXuuJ1BUbgJZQqSCENeS6RjVjzDZdi4kxoe',
+       email: 'puneetvashisht@gmail.com' } } ] ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-21:12)'
+[2017-01-19 22:57:36.924] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 22:57:36.924] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 22:57:36.946] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 22:57:36.979] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 22:58:33.825] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-8:10)'
+[2017-01-19 22:58:33.864] [DEBUG] MyLogger - finding Users :>> log at <anonymous> (app\routes\internalUse\user.js-13:12)
+[2017-01-19 22:58:33.865] [DEBUG] MyLogger - [] ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-15:12)'
+[2017-01-19 22:58:55.181] [DEBUG] MyLogger - { email: 'puneetvashisht@gmail.com',
+  password: 'tkhts@123',
+  confirmPassword: 'tkhts@123' } ':>> log at <anonymous> (app\\routes\\authroutes.js-84:20)'
+[2017-01-19 22:58:55.185] [DEBUG] MyLogger - this email id is available :>> log at <anonymous> (app\routes\authroutes.js-98:24)
+[2017-01-19 22:58:55.187] [DEBUG] MyLogger - { __v: 0,
+  _id: 5880f7566a5a071b2ce3f450,
+  local: 
+   { password: '$2a$08$t3dEA88U/V1PXjfX.m1fhegXuMRv3EJI1PQuEnR3TKRzBO6QBreF6',
+     email: 'puneetvashisht@gmail.com' } } ':>> log at <anonymous> (app\\routes\\authroutes.js-99:24)'
+[2017-01-19 22:58:55.194] [DEBUG] MyLogger - user written in db :>> log at <anonymous> (app\routes\authroutes.js-106:24)
+[2017-01-19 22:59:05.657] [DEBUG] MyLogger - in passport email validation :>> log at <anonymous> (config\passport.js-50:24)
+[2017-01-19 22:59:05.659] [DEBUG] MyLogger - { _id: 5880f7566a5a071b2ce3f450,
+  __v: 0,
+  local: 
+   { password: '$2a$08$t3dEA88U/V1PXjfX.m1fhegXuMRv3EJI1PQuEnR3TKRzBO6QBreF6',
+     email: 'puneetvashisht@gmail.com' } } ':>> log at <anonymous> (config\\passport.js-51:24)'
+[2017-01-19 22:59:05.662] [DEBUG] MyLogger - [] ':>> log at <anonymous> (config\\passport.js-52:24)'
+[2017-01-19 22:59:05.748] [DEBUG] MyLogger - ++++++ :>> log at <anonymous> (app\routes\authroutes.js-47:24)
+[2017-01-19 22:59:05.749] [DEBUG] MyLogger - { _id: 5880f7566a5a071b2ce3f450,
+  __v: 0,
+  local: 
+   { password: '$2a$08$t3dEA88U/V1PXjfX.m1fhegXuMRv3EJI1PQuEnR3TKRzBO6QBreF6',
+     email: 'puneetvashisht@gmail.com' } } ':>> log at <anonymous> (app\\routes\\authroutes.js-48:24)'
+[2017-01-19 22:59:05.752] [DEBUG] MyLogger - ======= :>> log at <anonymous> (app\routes\authroutes.js-54:24)
+[2017-01-19 22:59:06.220] [DEBUG] MyLogger - finding UserQuiz :>> log at <anonymous> (app\routes\quizroutes.js-22:20)
+[2017-01-19 22:59:06.222] [DEBUG] MyLogger - [] ':>> log at <anonymous> (app\\routes\\quizroutes.js-24:20)'
+[2017-01-19 23:00:36.320] [DEBUG] MyLogger - { name: 'somename',
+  email: 'somename@gmail.com',
+  age: 99,
+  password: 'somename@123' } ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-8:10)'
+[2017-01-19 23:00:36.361] [DEBUG] MyLogger - finding Users :>> log at <anonymous> (app\routes\internalUse\user.js-13:12)
+[2017-01-19 23:00:36.362] [DEBUG] MyLogger - [ { _id: 5880f7566a5a071b2ce3f450,
+    __v: 0,
+    local: 
+     { password: '$2a$08$t3dEA88U/V1PXjfX.m1fhegXuMRv3EJI1PQuEnR3TKRzBO6QBreF6',
+       email: 'puneetvashisht@gmail.com' } } ] ':>> log at <anonymous> (app\\routes\\internalUse\\user.js-15:12)'
+[2017-01-19 23:01:44.636] [DEBUG] MyLogger - Angular2 Quiz saved :>> log at <anonymous> (app\routes\setup.js-446:11)
+[2017-01-19 23:01:44.845] [INFO] MyLogger - Angular2 Question saved :>> log at <anonymous> (app\routes\setup.js-475:11)
+[2017-01-19 23:02:01.923] [INFO] MyLogger - Only user-quiz Relationship saved. :>> log at <anonymous> (app\routes\setup.js-497:28)
+[2017-01-19 23:02:01.926] [INFO] MyLogger - user : puneetvashisht@gmail.com :>> log at <anonymous> (app\routes\setup.js-498:28)
+[2017-01-19 23:02:01.928] [INFO] MyLogger - Quiz : Angular2 :>> log at <anonymous> (app\routes\setup.js-499:28)
+[2017-01-19 23:02:18.164] [DEBUG] MyLogger - in passport email validation :>> log at <anonymous> (config\passport.js-50:24)
+[2017-01-19 23:02:18.168] [DEBUG] MyLogger - { _id: 5880f7566a5a071b2ce3f450,
+  __v: 0,
+  local: 
+   { password: '$2a$08$t3dEA88U/V1PXjfX.m1fhegXuMRv3EJI1PQuEnR3TKRzBO6QBreF6',
+     email: 'puneetvashisht@gmail.com' } } ':>> log at <anonymous> (config\\passport.js-51:24)'
+[2017-01-19 23:02:18.172] [DEBUG] MyLogger - [] ':>> log at <anonymous> (config\\passport.js-52:24)'
+[2017-01-19 23:02:18.269] [DEBUG] MyLogger - ++++++ :>> log at <anonymous> (app\routes\authroutes.js-47:24)
+[2017-01-19 23:02:18.270] [DEBUG] MyLogger - { _id: 5880f7566a5a071b2ce3f450,
+  __v: 0,
+  local: 
+   { password: '$2a$08$t3dEA88U/V1PXjfX.m1fhegXuMRv3EJI1PQuEnR3TKRzBO6QBreF6',
+     email: 'puneetvashisht@gmail.com' } } ':>> log at <anonymous> (app\\routes\\authroutes.js-48:24)'
+[2017-01-19 23:02:18.273] [DEBUG] MyLogger - ======= :>> log at <anonymous> (app\routes\authroutes.js-54:24)
+[2017-01-19 23:02:18.927] [DEBUG] MyLogger - finding UserQuiz :>> log at <anonymous> (app\routes\quizroutes.js-22:20)
+[2017-01-19 23:02:18.929] [DEBUG] MyLogger - [ { _id: 5880f8116452591860b23ecb,
+    user: 'puneetvashisht@gmail.com',
+    quiz: 20,
+    quizName: 'Angular2',
+    description: 'RPS 20Jan2017',
+    __v: 0 } ] ':>> log at <anonymous> (app\\routes\\quizroutes.js-24:20)'
+[2017-01-19 23:02:20.854] [DEBUG] MyLogger - 20 :>> log at <anonymous> (app\routes\quizroutes.js-34:16)
+[2017-01-19 23:02:20.865] [DEBUG] MyLogger - Printing Data ------------ :>> log at <anonymous> (app\routes\quizroutes.js-43:24)
+[2017-01-19 23:02:20.867] [DEBUG] MyLogger - [ { _id: 5880f7ff6452591860b23eca,
+    quiz: 20,
+    quizName: 'Angular2',
+    tl: 1200,
+    __v: 0,
+    questions: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ] } ] ':>> log at <anonymous> (app\\routes\\quizroutes.js-44:24)'
+[2017-01-19 23:02:20.875] [DEBUG] MyLogger - { _id: 20,
+  name: 'Angular2',
+  description: 'RPS 20Jan2017',
+  showScores: true,
+  __v: 0 } ':>> log at <anonymous> (app\\routes\\quizroutes.js-47:28)'
+[2017-01-19 23:02:20.877] [DEBUG] MyLogger - true ':>> log at <anonymous> (app\\routes\\quizroutes.js-48:28)'
+[2017-01-19 23:02:20.878] [DEBUG] MyLogger - { text: 'Select correct syntax ',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23ea4,
+       correct: false,
+       text: '<li *ngFor=\'let n in names\'>{{n}}</li>' },
+     { _id: 5880f7ff6452591860b23ea5,
+       correct: true,
+       text: '<li *ngFor=\'let n of names\'>{{n}}</li>' },
+     { _id: 5880f7ff6452591860b23ea6,
+       correct: false,
+       text: '<li *ngFor=\'#n in names\'>{{n}}</li>' },
+     { _id: 5880f7ff6452591860b23ea7,
+       correct: false,
+       text: '<li *ngFor=\'#n of names\'>{{n}}</li>' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.882] [DEBUG] MyLogger - { text: 'An Angular module is a class decorated with @NgModule metadata. The metadata:',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23ea8,
+       correct: false,
+       text: 'Declare which components, directives and pipes belong to the module.' },
+     { _id: 5880f7ff6452591860b23ea9,
+       correct: false,
+       text: 'Make some of those classes public so that other component templates can use them.' },
+     { _id: 5880f7ff6452591860b23eaa,
+       correct: false,
+       text: 'Provide services at the application level that any application component can use.' },
+     { _id: 5880f7ff6452591860b23eab,
+       correct: true,
+       text: 'All of the above' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.885] [DEBUG] MyLogger - { text: 'What is router-link in Angular 2?',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23eac,
+       correct: true,
+       text: 'directive is use to declare link into view' },
+     { _id: 5880f7ff6452591860b23ead,
+       correct: false,
+       text: 'Its work as a placeholder for views to render then component' },
+     { _id: 5880f7ff6452591860b23eae,
+       correct: false,
+       text: 'Parameter to a component which rendered by the router' },
+     { _id: 5880f7ff6452591860b23eaf,
+       correct: false,
+       text: 'None of the above' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.887] [DEBUG] MyLogger - { text: 'NgModule is imported from',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23eb0,
+       correct: true,
+       text: '@angular/core' },
+     { _id: 5880f7ff6452591860b23eb1,
+       correct: false,
+       text: '@angular/platform-browser' },
+     { _id: 5880f7ff6452591860b23eb2,
+       correct: false,
+       text: '@angular/modules' },
+     { _id: 5880f7ff6452591860b23eb3,
+       correct: false,
+       text: 'app.module' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.891] [DEBUG] MyLogger - { text: 'Which one is not used by Angular 2',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23eb4,
+       correct: false,
+       text: 'ShadowDOM' },
+     { _id: 5880f7ff6452591860b23eb5,
+       correct: true,
+       text: 'VirtualDOM' },
+     { _id: 5880f7ff6452591860b23eb6,
+       correct: false,
+       text: 'ViewEncapsulation' },
+     { _id: 5880f7ff6452591860b23eb7,
+       correct: false,
+       text: 'None of the above' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.893] [DEBUG] MyLogger - { text: 'Modules are a great way to organize the application and extend it with capabilities from external libraries.',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23eb8, correct: true, text: 'True' },
+     { _id: 5880f7ff6452591860b23eb9, correct: false, text: 'False' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.895] [DEBUG] MyLogger - { text: 'What is Type Script?',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23eba,
+       correct: false,
+       text: 'A typed superset of JavaScript' },
+     { _id: 5880f7ff6452591860b23ebb,
+       correct: false,
+       text: 'A language which compile code into JavaScript' },
+     { _id: 5880f7ff6452591860b23ebc,
+       correct: false,
+       text: 'It\'s not like other script language like Coffee script , Jquery etc. which run into client side' },
+     { _id: 5880f7ff6452591860b23ebd,
+       correct: true,
+       text: 'All of the above' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.898] [DEBUG] MyLogger - { text: 'Which one is not built-in directive in angular2',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23ebe, correct: false, text: 'ngIf' },
+     { _id: 5880f7ff6452591860b23ebf, correct: false, text: 'ngFor' },
+     { _id: 5880f7ff6452591860b23ec0,
+       correct: true,
+       text: 'ngTemplate' },
+     { _id: 5880f7ff6452591860b23ec1,
+       correct: false,
+       text: 'ngSwitch' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.900] [DEBUG] MyLogger - { text: 'What is Directive in Angular 2?',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23ec2,
+       correct: true,
+       text: 'That adds behavior to DOM element' },
+     { _id: 5880f7ff6452591860b23ec3,
+       correct: false,
+       text: 'That has an embedded template' },
+     { _id: 5880f7ff6452591860b23ec4, correct: false, text: 'Both' },
+     { _id: 5880f7ff6452591860b23ec5, correct: false, text: 'None' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.905] [DEBUG] MyLogger - { text: 'What is router-outlet in Angular 2?',
+  answers: 
+   [ { _id: 5880f7ff6452591860b23ec6,
+       correct: false,
+       text: 'directive is use to declare link into view' },
+     { _id: 5880f7ff6452591860b23ec7,
+       correct: true,
+       text: 'Its work as a placeholder for views to render then component' },
+     { _id: 5880f7ff6452591860b23ec8,
+       correct: false,
+       text: 'Parameter to a component which rendered by the router' },
+     { _id: 5880f7ff6452591860b23ec9,
+       correct: false,
+       text: 'None of the above' } ] } ':>> log at <anonymous> (app\\routes\\quizroutes.js-53:32)'
+[2017-01-19 23:02:20.910] [INFO] MyLogger - Printing Data After Answers removal------------ :>> log at <anonymous> (app\routes\quizroutes.js-58:28)
+[2017-01-19 23:02:20.911] [DEBUG] MyLogger - [ { _id: 5880f7ff6452591860b23eca,
+    quiz: 20,
+    quizName: 'Angular2',
+    tl: 1200,
+    __v: 0,
+    questions: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ] } ] ':>> log at <anonymous> (app\\routes\\quizroutes.js-59:28)'
+[2017-01-19 23:27:51.108] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 23:27:51.144] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 23:27:51.609] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 23:27:52.611] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-19 23:28:32.480] [DEBUG] MyLogger - in passport email validation :>> log at <anonymous> (config\passport.js-50:24)
+[2017-01-19 23:28:32.481] [DEBUG] MyLogger - { _id: 5880f7566a5a071b2ce3f450,
+  __v: 0,
+  local: 
+   { password: '$2a$08$t3dEA88U/V1PXjfX.m1fhegXuMRv3EJI1PQuEnR3TKRzBO6QBreF6',
+     email: 'puneetvashisht@gmail.com' } } ':>> log at <anonymous> (config\\passport.js-51:24)'
+[2017-01-19 23:28:32.507] [DEBUG] MyLogger - [] ':>> log at <anonymous> (config\\passport.js-52:24)'
+[2017-01-19 23:28:32.598] [DEBUG] MyLogger - ++++++ :>> log at <anonymous> (app\routes\authroutes.js-47:24)
+[2017-01-19 23:28:32.599] [DEBUG] MyLogger - { _id: 5880f7566a5a071b2ce3f450,
+  __v: 0,
+  local: 
+   { password: '$2a$08$t3dEA88U/V1PXjfX.m1fhegXuMRv3EJI1PQuEnR3TKRzBO6QBreF6',
+     email: 'puneetvashisht@gmail.com' } } ':>> log at <anonymous> (app\\routes\\authroutes.js-48:24)'
+[2017-01-19 23:28:32.602] [DEBUG] MyLogger - ======= :>> log at <anonymous> (app\routes\authroutes.js-54:24)
+[2017-01-19 23:28:32.970] [DEBUG] MyLogger - puneetvashisht@gmail.com :>> log at <anonymous> (app\routes\quizroutes.js-18:16)
+[2017-01-19 23:28:32.980] [DEBUG] MyLogger - finding UserQuiz :>> log at <anonymous> (app\routes\quizroutes.js-22:20)
+[2017-01-19 23:28:32.981] [DEBUG] MyLogger - [ { _id: 5880f8116452591860b23ecb,
+    user: 'puneetvashisht@gmail.com',
+    quiz: 20,
+    quizName: 'Angular2',
+    description: 'RPS 20Jan2017',
+    __v: 0 } ] ':>> log at <anonymous> (app\\routes\\quizroutes.js-24:20)'
+[2017-01-20 00:20:23.130] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-20 00:20:23.147] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-20 00:20:23.161] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-20 00:20:23.187] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-20 00:29:03.765] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-20 00:29:03.776] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-20 00:29:03.787] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)
+[2017-01-20 00:29:03.793] [INFO] MyLogger - The magic happens on  localhost:3000 :>> log at http.listen (app.js-129:16)

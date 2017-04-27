@@ -1,0 +1,755 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Understating Node</title>
+	
+	<meta name="description" content="A dummy presentation for CodeAngelsJs Course">
+		<meta name="author" content="sudodoki / Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/league.css">
+	<link rel="stylesheet" href="css/my.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<span id="title1"><b>Node.js®</b></span><br><br>
+				<!--<img src="images/nodejs-logo.png" alt="">-->
+				<ul>
+					<li class="fragment" data-fragment-index="1">JavaScript runtime built on Chrome's V8 JavaScript engine.</li>
+					<li class="fragment" data-fragment-index="2">Uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</li>
+					<li class="fragment" data-fragment-index="3">Lightweight and efficient, perfect for data-intensive real-time applications.</li>
+				</ul>
+					<p class="fragment" data-fragment-index="4">Run across distributed devices.</p>
+					<span style="border: 1px solid black; background: white;" class="fragment" data-fragment-index="5"><b class="fragment" data-fragment-index="5">NodeJS:<a href="https://nodejs.org/">https://nodejs.org/</a></b></span>
+			</section>
+			<section>
+				<h2><b>Node.js®</b></h2>
+				<div>
+				<aside class="fragment" data-fragment-index="1" style="border: 2px solid black; background: #f78080; float:left; padding: 5px; margin-left:80px;"><span class="fragment" data-fragment-index="3" style=" color:white; font-size:0.8em;">Server Side Development</span><hr>
+                    <ul>
+                            <li class="fragment" data-fragment-index="5">Mongodb</li>
+                                <p class="fragment" data-fragment-index="6" style="font-size:0.5em">- Driver for mongo database</p>
+                            <li class="fragment" data-fragment-index="7">Express</li>
+                            <p class="fragment" data-fragment-index="8" style="font-size:0.5em">- Web framework</p>
+                            <li class="fragment" data-fragment-index="9">Jade/Ejs</li>
+                            <p class="fragment" data-fragment-index="10" style="font-size:0.5em">- Server side template like jsp</p>
+                            <li class="fragment" data-fragment-index="11">More...</li>
+                        </ul></aside>
+				<aside class="fragment" data-fragment-index="2" style="margin-left: 10px; border: 2px solid black; background: #f78080; float: left; padding:5px;"><span class="fragment" data-fragment-index="4" style=" color:white;font-size:0.8em;">Client Side Development</span><hr>
+                    <ul>
+                            <li class="fragment" data-fragment-index="12">Grunt/Gulp</li>
+                                <p class="fragment" data-fragment-index="13" style="font-size:0.5em">- Tsk runner</p>
+                            <li class="fragment" data-fragment-index="14">Yoeman</li>
+                            <p class="fragment" data-fragment-index="15" style="font-size:0.5em">- Scaffolding</p>
+                            <li class="fragment" data-fragment-index="16">Bower</li>
+                            <p class="fragment" data-fragment-index="17" style="font-size:0.5em">- Front end dependency management</p>
+                            <li class="fragment" data-fragment-index="18">More...</li>
+                        </ul></aside>
+                   
+				</div>
+			</section>
+			<section>
+				<span id="title1">Traditional Server Approach</span>
+                <ul>
+                    <li class="fragment" data-fragment-index="2">Each connection (request) Spawns a new thread</li>
+                    <li class="fragment" data-fragment-index="3">Takes up system RAM and eventually maxing-out at the amount of RAM available</li>
+                </ul>
+			</section>
+			<section>
+			<span id="title1" class="center-block">How to handle requests/clients ?</span>
+				<section>
+					<img class="fragment" data-fragment-index="1" src="images/1.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/2.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/3.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/4.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/5.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/6.jpg" alt="">
+				</section>
+			</section>
+			<section>
+				<span id="title1" class="center-block">NodeJs Approach</span>
+				<span id="title2" class="fragment" data-fragment-index="1">Node.js</span>
+				<ul>
+					<li  id="center" class="fragment" data-fragment-index="2">Operates on a single-thread</li>
+					<li id="center" class="fragment" data-fragment-index="3">Using non-blocking I/O calls</li>
+					<li id="center" class="fragment" data-fragment-index="4">Allowing it to support tens of thousands of concurrent connections</li>
+				</ul>
+			</section>
+			<section>
+			<span id="title1" class="center-block">How to handle requests/clients ?</span>
+				<section>
+					<img class="fragment" data-fragment-index="1" src="images/1.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/2.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/3.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/4.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/5.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/6.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/7.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/8.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/9.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/10.jpg" alt="">
+				</section>
+				<section>
+					<img src="images/090888990.jpg" alt="">
+				</section>
+			</section>
+
+			<section>
+				<span id="title1" class="center-block">NodeJs Approach</span>
+				<span id="title2" class="fragment" data-fragment-index="1">Node.js</span>
+				<ul>
+					<li  id="center" class="fragment" data-fragment-index="2">Node.js achieves scalability levels of over 1M concurrent connections.</li>
+					<li id="center" class="fragment" data-fragment-index="3">Let’s take a very simple piece of code like this:
+						<pre class="fragment" data-fragment-index="4">
+var result = database.query("SELECT * FROM hugetable"); 
+console.log("Hello World");</pre>
+					</li>
+					<li id="center" class="fragment" data-fragment-index="5">The execution model of Node.js is different
+						<ul>
+							<li class="fragment" data-fragment-index="6" style="font-size:0.8em;">There is only one single process</li>
+							<li class="fragment" data-fragment-index="7" style="font-size:0.8em;">If there is a slow database query somewhere in this process, this affects the whole process
+								<ul>
+									<li class="fragment" data-fragment-index="8" style="font-size:0.7em;">Everything comes to a halt until the slow query has finished.</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">NodeJs Approach</span>
+				<ul>
+					<li id="center" class="fragment" data-fragment-index="1">To avoid this Node.js introduces the concept of event-driven, asynchronous callbacks, by utilizing an event loop.
+						<pre class="fragment" data-fragment-index="2">
+database.query("SELECT * FROM hugetable", function(rows) { 
+       var result = rows; 
+}); 
+console.log("Hello World");</pre>
+					</li>
+					<li id="center" class="fragment" data-fragment-index="3">Node.js can handle the database request asynchronously
+						<ul>
+							<li class="fragment" data-fragment-index="4" style="font-size:0.8em;">Instead of waiting for query to be finished, node makes a mental note that says <u>“When at some point in the future the database query is done, then I have to execute the anonymous function.”</u></li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">NodeJs Approach</span><br>
+				<img class="fragment" data-fragment-index="1" src="images/hhh.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">NodeJs server demo</span><br>
+				<img class="fragment" data-fragment-index="1" src="images/aaa.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Node Package Manager</span><br>
+				<ul>
+					<li class="fragment" data-fragment-index="2">Comes by default with every Node.js installation</li>
+					<li class="fragment" data-fragment-index="3">Built-in support for package management using the <u>NPM</u> tool </li>
+					<li class="fragment" data-fragment-index="4">A set of publicly available, reusable components, available through easy installation via an online repository, with version and dependency management.</li>
+				</ul>
+				<span style="border: 1px solid black; background: white;" class="fragment" data-fragment-index="5"><b class="fragment" data-fragment-index="5">NodeJS:<a href="https://nodejs.org/">https://nodejs.org/</a></b></span>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Angular 2</span><br>
+				<img class="fragment" data-fragment-index="1" src="images/iii.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Architecture</span><br>
+				<img class="fragment" data-fragment-index="1" src="images/bbb.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Architecture</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Module</li>
+					<li class="fragment" data-fragment-index="2">Component</li>
+					<li class="fragment" data-fragment-index="3">Template</li>
+					<li class="fragment" data-fragment-index="4">Metadata</li>
+					<li class="fragment" data-fragment-index="5">Data Binding</li>
+					<li class="fragment" data-fragment-index="6">Service</li>
+					<li class="fragment" data-fragment-index="7">Directive</li>
+					<li class="fragment" data-fragment-index="8">Dependency Injection</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Modules</span>
+				<br>
+				<div class="fragment" data-fragment-index="1" style="background: #7d98b9; border: 2px solid #6f7689; color: white;">Good authors divide their books into chapters and sections; good programmers divide their programs into modules.</div>
+				<ul><br>
+					<li class="fragment" data-fragment-index="2">Good modules are
+						<ul>
+							<li class="fragment" data-fragment-index="3">Highly self-contained with distinct functionality</li>
+							<li class="fragment" data-fragment-index="4">Allowing them to be shuffled, removed, or added as necessary</li>
+							<li class="fragment" data-fragment-index="5">Without disrupting the system as a whole.</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Why Modules</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Maintainability
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="2">Updating a single module is much easier when the module is decoupled from other pieces of code.</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="3">Namespacing
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="4">Modules allow us to avoid namespace pollution by creating a private space for our variables.</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="5">Reusability
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="6">Let’s be honest here: copy previously written code into new projects.</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Angular Module</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Every Angular app has at least one Angular module class, the <u>root module</u>.</li>
+					<li class="fragment" data-fragment-index="2">An Angular module, is a class with an <u><b>@NgModule</b></u> decorator.</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">NgModule</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">NgModule is a decorator function that takes a single metadata object whose properties describe the module.</li>
+					<ol>
+					<li style="font-size:0.7em;" class="fragment" data-fragment-index="2"><u><b>declarations</b></u> - the view classes that belong to this module. [components | directives | pipes]</li>
+					<li style="font-size:0.7em;" class="fragment" data-fragment-index="3"><u><b>imports</b></u> - other exported modules needed by this module component templates. [BrowserModule | FormModule]</li>
+					<li style="font-size:0.7em;" class="fragment" data-fragment-index="4"><u><b>providers</b></u> - services become accessible in all parts of this module. [HttpService | LoggerService]</li>
+					<li style="font-size:0.7em;" class="fragment" data-fragment-index="5"><u><b>bootstrap</b></u> - the main application view, called the root component, that hosts all other app views. Only the root module should set this bootstrap property. [AppComponent]</li>
+					</ol>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">NgModule</span><br>
+				<img class="fragment" data-fragment-index="1" src="images/ccc.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Why Components</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Developers have been trying to find a solution to architecture on complex web applications. </li>
+					<li class="fragment" data-fragment-index="2">The most recent answer to that are components
+						<ul>
+							<li style="font-size: 0.8em;" class="fragment" data-fragment-index="3">Divide the interface in smaller and autonomous blocks to achieve maintainability and scalability.</li>
+						</ul>
+					</li>
+				</ul><br><br>
+				<div style="font-size: 0.7em; color: #fff; background: #8e8b8b; border: 1px solid #4d4d4d;" class="fragment" data-fragment-index="4">Autonomous = Independent and having the power to make own decisions</div>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Component</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">A  controller class with a template which mainly deals with a view of the application and logic on the page.</li>
+					<li class="fragment" data-fragment-index="2"><b><u>@Component</u></b> annotation is used to register component.</li>
+					<li class="fragment" data-fragment-index="3">There will be only one component per DOM element.</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Component</span>
+				<br>
+				<img class="fragment" data-fragment-index="1" src="images/ddd.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Template</span>
+				<ul>
+				<li id="center" class="fragment" data-fragment-index="1">Defines a component's view with its companion <b>template.</b>
+						<ul>
+							<li class="fragment" data-fragment-index="2" style="font-size:0.8em;">A form of HTML that tells Angular how to render the component.</li>
+						</ul>
+				</ul>
+				<div><img class="fragment" data-fragment-index="3" src="images/eee.png" alt=""></div><br>
+				<img class="fragment" data-fragment-index="4" src="images/fff.png" alt="">
+				<span class="fragment" data-fragment-index="4" style="font-size:16px; border: 1px solid #e2a0a0;background:#c0c1bc;">app.component.html</span>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Metadata</span><br>
+				<ul>
+				<li id="center" class="fragment" data-fragment-index="1">A way of processing the class.</li>
+                <li id="center" class="fragment" data-fragment-index="2">Consider a class called <b><u>MyComponent</u></b>.
+				    <ul>
+							<li class="fragment" data-fragment-index="3" style="font-size:0.8em;">How would angular recognize it as component.</li>
+							<li class="fragment" data-fragment-index="4" style="font-size:0.8em;">Metadata (@Component decorator) is used to the class to tell Angular that <b><u>MyComponent</u></b> is a component.</li>
+				    </ul>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Metadata </span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">@Component configuration options:</li>
+					<ol>
+					<li style="font-size:0.8em;" class="fragment" data-fragment-index="2"><b><u>moduleId:</u></b> sets the source of the base address [<u>module.id</u>]</li>
+					<li style="font-size:0.8em;" class="fragment" data-fragment-index="3"><b><u>selector:</u></b> html selector that tells Angular to create and insert an instance of this component. For example, if an app's HTML contains <app-root></app-root>, then Angular inserts an instance of the AppComponent view between those tags</li>
+					<li style="font-size:0.8em;" class="fragment" data-fragment-index="4"><b><u>template/templateUrl:</u></b> module-relative address of this component's HTML template.</li>
+					<li style="font-size:0.8em;" class="fragment" data-fragment-index="5"><b><u>providers:</u></b> array of <u>dependency injection providers</u> for services that this component requires.</li>
+					</ol>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Data Binding</span><br>
+				<ul>
+				    <li class="fragment" data-fragment-index="1">Mechanism for coordinating parts of a template with parts of a component
+						<ul>
+							<li class="fragment" data-fragment-index="2" style="font-size:0.8em;">Pushes data values into the HTML from logic.</li>
+						</ul>
+				</ul>
+				<img class="fragment" data-fragment-index="3" src="images/ggg.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Data Binding</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1"><b>Interpolation:</b> Displays the component's property value within the HTML element.</li>
+					<li class="fragment" data-fragment-index="2"><b>Property Binding:</b> It passes the property from the parent to the child.</li>
+					<li class="fragment" data-fragment-index="3"><b>Event Binding:</b> It fires the event.</li>
+					<li class="fragment" data-fragment-index="4"><b>Two-way Binding:</b> This form binds property and event by using the ngModel directive in a single notation.</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Directive</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Makes angular templates <i>dynamic</i>.</li>
+					<li class="fragment" data-fragment-index="2">Before Angular renders template, <i>directives</i> gives the instructions to angular to transforms the DOM.</li>
+					<li class="fragment" data-fragment-index="3">A class with a <i><u>@Directive</u></i> decorator</li>
+					<li class="fragment" data-fragment-index="4">They tend to appear within an element tag as attributes</li>
+				</ul><br><br>
+				<aside class="fragment" data-fragment-index="5" style="color: #fff; font-size: 0.7em;background: #9b9898; border: 2px solid #727272">A component is a directive-with-a-template; a @Componentdecorator is actually a @Directive decorator extended with template-oriented features.</aside>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Directive</span>
+				<br>
+				<ul>
+                    <span class="fragment" data-fragment-index="1" style="font-size:1.4em;">Kinds of directives are</span><br><br>
+					<ul>
+						<li class="fragment" data-fragment-index="2" style="font-size:0.8em;">Structural directives<br>
+							<ul>
+								<li class="fragment" data-fragment-index="3" style="font-size:0.8em;">ngIf, ngFor, ngSwitch</li>
+							</ul>
+						</li><br>
+						<li class="fragment" data-fragment-index="4" style="font-size:0.8em;">Attribute directives<br>
+							<ul>
+								<li class="fragment" data-fragment-index="5" style="font-size:0.8em;">ngClass, ngStyle, ngModel</li>
+							</ul>
+						</li>
+					</ul>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Structural Directive</span><br>
+				<ul>
+					<li id="center" class="fragment" data-fragment-index="1">Alter layout by adding, removing, and replacing elements in DOM</li>
+					</ul>
+				<img class="fragment" data-fragment-index="2" src="images/jjj.png" alt="">
+			</section>
+            <section>
+				<span id="title1" class="center-block">Attribute Directive</span><br>
+				<ul>
+                    <li class="fragment" data-fragment-index="1">Alter the appearance or behavior of an existing element</li>
+                    <img class="fragment" data-fragment-index="2" src="images/kkk.png" alt="">
+                    <li class="fragment" data-fragment-index="3">ngModel directive an example of an attribute directive, modifies the behavior of an existing element
+						<ul>
+							<li class="fragment" data-fragment-index="4" style="font-size:0.8em;">ngModel directive an example of an attribute directive, modifies the behavior of an existing element</li>
+						</ul>
+				</ul>
+			</section>
+            <section>
+				<span id="title1" class="center-block">Service </span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Provides anything our application needs.</li>
+					<li class="fragment" data-fragment-index="2">Shares data or functions.</li>
+                    <li class="fragment" data-fragment-index="3">Injected using Dependency Injection mechanism.</li>
+					<li class="fragment" data-fragment-index="4">Singleton class responsible for doing a specific task only such as 
+                        <ul>
+                            <li class="fragment" data-fragment-index="5"><i>Logging service</i></li>
+                            <li class="fragment" data-fragment-index="6"><i>Data service</i></li>
+                            <li class="fragment" data-fragment-index="7"><i>Message service</i></li>
+                            <li class="fragment" data-fragment-index="8"><i>The configuration of application</i></li>
+                            <li class="fragment" data-fragment-index="9"><i>More…</i></li>
+                        </ul>
+                    </li>
+				</ul>
+			</section>
+            <section>
+				<span id="title1" class="center-block">Service</span><br>
+				<img class="fragment" data-fragment-index="2" src="images/lll.png" alt="">
+			</section>
+            <section>
+				<span id="title1" class="center-block">Service</span><br>
+				<img class="fragment" data-fragment-index="2" src="images/mmm.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Dependency Injection</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">A design pattern that passes an object as dependencies in different components across the application.</li>
+					<li class="fragment" data-fragment-index="2">Creates new a instance of class along with its required dependencies.</li>
+				</ul>
+			</section>
+            <section>
+				<span id="title1" class="center-block">Dependency Injection</span><br>
+				<img class="fragment" data-fragment-index="2" src="images/nnn.png" alt="">
+			</section>
+            <section>
+				<span id="title1" class="center-block">Pipe</span>
+				<br>
+				<ul>
+                    <li class="fragment" data-fragment-index="1">Pipes transform displayed values within a template.</li>
+                    <li class="fragment" data-fragment-index="2">Built-in pipes
+						<ul>
+							<li class="fragment" data-fragment-index="3" style="font-size:0.8em;">DatePipe</li>
+							<li class="fragment" data-fragment-index="4" style="font-size:0.8em;">UpperCasePipe</li>
+							<li class="fragment" data-fragment-index="5" style="font-size:0.8em;">LowerCasePipe</li>
+							<li class="fragment" data-fragment-index="6" style="font-size:0.8em;">CurrencyPipe</li>
+							<li class="fragment" data-fragment-index="7" style="font-size:0.8em;">PercentPipe</li>
+						</ul>
+                        <li class="fragment" data-fragment-index="8">No FilterPipe and OrderByPipe</li>
+				</ul>
+			</section>
+            <section>
+				<span id="title1" class="center-block">Pipe</span><br>
+				<img class="fragment" data-fragment-index="2" src="images/ooo.png" alt="">
+			</section>
+            <section>
+				<span id="title1" class="center-block">Pipe</span><br>
+				<img class="fragment" data-fragment-index="2" src="images/ppp.png" alt="">
+			</section>
+            <section>
+				<span id="title1" class="center-block">Pipe</span><br>
+				<img class="fragment" data-fragment-index="2" src="images/qqq.png" alt="">
+			</section>
+            <section>
+				<span id="title1" class="center-block">Pipe</span><br>
+				<img class="fragment" data-fragment-index="2" src="images/rrr.png" alt="">
+			</section>
+            <section>
+				<span id="title1" class="center-block">Pipe</span>
+				<br>
+				<ul>
+                    <li class="fragment" data-fragment-index="1">Async Pipe
+                        <ul>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="2">Subscribes to a Promise or an Observable, returning the latest value emitted</li>
+                        </ul></li>
+				</ul>
+			</section>
+            <section>
+				<span id="title1" class="center-block">Pipe</span><br>
+				<img class="fragment" data-fragment-index="1" src="images/sss.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Form</span>
+				<br>
+				<ul>
+                    <li class="fragment" data-fragment-index="1">Form can end up being really complex 
+                        <ul>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="2">Form inputs are meant to modify data, both on the page and the server</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="3">Changes often need to be reflected elsewhere on the page</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="4">Users have a lot of leeway in what they enter, so you need to validate values</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="5">The UI needs to clearly state expectations and errors, if any</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="6">Dependent fields can have complex logic</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="7">We want to be able to test our forms, without relying on DOM selectors</li>
+                        </ul></li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Form</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Thankfully,  Angular2 has tools to help with all of above things.</li>
+					<li class="fragment" data-fragment-index="2"><b style="color: #9cf499;">FormControls</b>
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="3">encapsulate the inputs in our forms and give us objects to work with them</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="4"><b style="color: #9cf499;">Validators</b>
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="5">give us the ability to validate inputs, any way we'd like</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="6"><b style="color: #9cf499;">Observers</b>
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="7">let us watch our form for changes and respond accordingly</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormControls</span>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Represents a single input field</li>
+					<li class="fragment" data-fragment-index="2">Smallest unit of an Angular form</li>
+					<li class="fragment" data-fragment-index="3">Encapsulate the field's value, and states such as if it is valid, dirty (changed), or has errors</li>
+				</ul>
+				<img class="fragment" data-fragment-index="4" src="images/ttt.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormGroups</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Most forms have more than one field
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="2">we need a way to manage multiple FormControls</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="3">If we want to check the validity of our form
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="4">iterate over an array of FormControls and check each FormControl for validity.</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="5">FormGroups solve this issue by providing a wrapper interface around a collection of FormControls</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormGroups</span>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Here's how you create a FormGroup:</li>
+				</ul>
+				<img style="height:200px;" class="fragment" data-fragment-index="2" src="images/uuu.png" alt="">
+				<img style="height:250px;" class="fragment" data-fragment-index="3" src="images/vvv.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormModules</span><br>
+				<img class="fragment" data-fragment-index="1" src="images/www.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Form & NgForm</span>
+				<br>
+				<ul>
+                    <li class="fragment" data-fragment-index="1">There are two important pieces of functionality that NgForm gives us: 
+                        <ul>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="2">A FormGroup named ngForm</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="3">A (<b>ngSubmit</b>) output</li>
+                        </ul></li>
+				</ul>
+				<img class="fragment" data-fragment-index="4" src="images/xxx.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormBuilder</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">A more flexible and common way to configure forms is to use a FormBuilder</li>
+					<li class="fragment" data-fragment-index="2">Forms are made up of FormControls and FormGroups </li>
+					<li class="fragment" data-fragment-index="3">The FormBuilder helps us make them 
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="4">Think of it as a "factory" object.</li>
+						</ul>
+					</li>
+					
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormBuilder</span>
+				<img class="fragment" data-fragment-index="1" src="images/yyy.png" alt="">
+				<img class="fragment" data-fragment-index="2" src="images/zzz.png" alt="">
+				<aside class="fragment" data-fragment-index="3" style="color: #fff; width: 70%; margin: auto; font-size: 0.7em;background: #9b9898; border: 2px solid #727272">FormBuilder.control - creates a new FormControl<br>FormBuilder.group - creates a new FormGroup
+				</aside>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Steps for Template Driven</span>
+				
+				<ol>
+					<li class="fragment" data-fragment-index="1">ngModels to the input boxes -- read value</li>
+					<li class="fragment" data-fragment-index="2">ngSumit and ngForm</li>
+					<li class="fragment" data-fragment-index="3">HTML5 input validations</li>
+					<li class="fragment" data-fragment-index="4">ng-invalid and ng-valid css classes</li>
+					<li class="fragment" data-fragment-index="5">[ngModel] to pick the default values, but one way binding</li>
+					<li class="fragment" data-fragment-index="6">[(ngModel)] two way binding</li>
+					<li class="fragment" data-fragment-index="7">FormGroup ngModelGroup="userData"</li>
+					<li class="fragment" data-fragment-index="8">Radio button</li>
+					<li class="fragment" data-fragment-index="9">Form state, valid form</li>
+				</ol>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Steps for Data Driven</span>
+				<ol style="font-size:80%;">
+					<li class="fragment" data-fragment-index="1">Create Form Group and Form Controls</li>
+					<li class="fragment" data-fragment-index="2">Synchronize the form with data-driven comp and bind the FormControls</li>
+					<li class="fragment" data-fragment-index="3">submit the form and log form value on the console</li>
+					<li class="fragment" data-fragment-index="4">Add validations to the FormControls</li>
+					<li class="fragment" data-fragment-index="5">If email is invalid show error message</li>
+					<li class="fragment" data-fragment-index="6">If form is invalid don't let the user submit it</li>
+					<li class="fragment" data-fragment-index="7">Group Data - Nested Form Group</li>
+					<li class="fragment" data-fragment-index="8">Bind radio type</li>
+					<li class="fragment" data-fragment-index="9">Custom Validation</li>
+					<li class="fragment" data-fragment-index="10">Form Array</li>
+					<li class="fragment" data-fragment-index="11">Add data in FormArray</li>
+					<li class="fragment" data-fragment-index="12">Async validation</li>
+				</ol>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Server Side Communication</span>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Angular2 uses Http to get and save data with Promises or Observables.</li>
+					<li class="fragment" data-fragment-index="2">Angular2 isolates the http calls in a shared Service.</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/aaaa.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP-verson rc</span>
+				<br>
+				<img src="images/bbbb.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP-latest version</span>
+				<br>
+				<img src="images/cccc.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/dddd.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/eeee.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/ffff.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">RxJx</span>
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="1">RxJx (Reactive Js) implements the asynchronous observable pattern and is widely used in Angular 2</li>
+						</ul>
+					<img class="fragment" data-fragment-index="2" src="images/gggg.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/hhhh.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/iiii.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/jjjj.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Routing</span>
+					<p class="fragment" data-fragment-index="1">Allows our application to navigate between different Components</p>
+				<ul>
+					<li class="fragment" data-fragment-index="2">Route Configuration</li>
+					<li class="fragment" data-fragment-index="3">Router Outlets</li>
+					<li class="fragment" data-fragment-index="4">Router Links</li>
+					<li class="fragment" data-fragment-index="5">Route Parameters</li>
+					<li class="fragment" data-fragment-index="6">Child Routers</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Routing</span>
+				<br>
+				<img src="images/kkkk.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Routing</span>
+				<br>
+				<img src="images/llll.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Routing</span>
+				<br>
+				<img src="images/mmmm.png" alt="">
+			</section>
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script src="js/my.js"></script>
+
+	<script>
+		Reveal.initialize({
+			dependencies: [{
+				src: 'plugin/markdown/marked.js'
+			}, {
+				src: 'plugin/markdown/markdown.js'
+			}],
+			markdown: {
+				smartypants: true
+			},
+
+			// Display controls in the bottom right corner
+			controls: true,
+
+			// Display a presentation progress bar
+			progress: true,
+
+			// Display the page number of the current slide
+			slideNumber: true,
+
+			// Push each slide change to the browser history
+			history: true,
+            
+            center: false,
+
+		});
+		
+Reveal.configure({ transition: 'none', transitionSpeed: 'fast'});
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Understating Node</title>
+	
+	<meta name="description" content="A dummy presentation for CodeAngelsJs Course">
+		<meta name="author" content="sudodoki / Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/league.css">
+	<link rel="stylesheet" href="css/my.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<span id="title1" class="center-block">Form</span>
+				<br>
+				<ul>
+                    <li class="fragment" data-fragment-index="1">Form can end up being really complex 
+                        <ul>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="2">Form inputs are meant to modify data, both on the page and the server</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="3">Changes often need to be reflected elsewhere on the page</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="4">Users have a lot of leeway in what they enter, so you need to validate values</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="5">The UI needs to clearly state expectations and errors, if any</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="6">Dependent fields can have complex logic</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="7">We want to be able to test our forms, without relying on DOM selectors</li>
+                        </ul></li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Form</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Thankfully,  Angular2 has tools to help with all of above things.</li>
+					<li class="fragment" data-fragment-index="2"><b style="color: #9cf499;">FormControls</b>
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="3">encapsulate the inputs in our forms and give us objects to work with them</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="4"><b style="color: #9cf499;">Validators</b>
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="5">give us the ability to validate inputs, any way we'd like</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="6"><b style="color: #9cf499;">Observers</b>
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="7">let us watch our form for changes and respond accordingly</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormControls</span><br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Represents a single input field</li>
+					<li class="fragment" data-fragment-index="2">Smallest unit of an Angular form</li>
+					<li class="fragment" data-fragment-index="3">Encapsulate the field's value, and states such as if it is valid, dirty (changed), or has errors</li>
+				</ul>
+				<img class="fragment" data-fragment-index="4" src="images/ttt.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormGroups</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Most forms have more than one field
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="2">we need a way to manage multiple FormControls</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="3">If we want to check the validity of our form
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="4">iterate over an array of FormControls and check each FormControl for validity.</li>
+						</ul>
+					</li>
+					<li class="fragment" data-fragment-index="5">FormGroups solve this issue by providing a wrapper interface around a collection of FormControls</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormGroups</span>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Here's how you create a FormGroup:</li>
+				</ul>
+				<img style="height:200px;" class="fragment" data-fragment-index="2" src="images/uuu.png" alt="">
+				<img style="height:250px;" class="fragment" data-fragment-index="3" src="images/vvv.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormModules</span><br>
+				<img class="fragment" data-fragment-index="1" src="images/www.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Form & NgForm</span>
+				<br>
+				<ul>
+                    <li class="fragment" data-fragment-index="1">There are two important pieces of functionality that NgForm gives us: 
+                        <ul>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="2">A FormGroup named ngForm</li>
+                        <li style="font-size:0.8em;" id="center" class="fragment" data-fragment-index="3">A (<b>ngSubmit</b>) output</li>
+                        </ul></li>
+				</ul>
+				<img class="fragment" data-fragment-index="4" src="images/xxx.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">FormBuilder</span>
+				<br>
+				<ul>
+					<li class="fragment" data-fragment-index="1">A more flexible and common way to configure forms is to use a FormBuilder</li>
+					<li class="fragment" data-fragment-index="2">Forms are made up of FormControls and FormGroups </li>
+					<li class="fragment" data-fragment-index="3">The FormBuilder helps us make them 
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="4">Think of it as a "factory" object.</li>
+						</ul>
+					</li>
+					
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Directive</span>
+
+				<img class="fragment" data-fragment-index="1" src="images/yyy.png" alt="">
+				<img class="fragment" data-fragment-index="2" src="images/zzz.png" alt="">
+				<aside class="fragment" data-fragment-index="3" style="color: #fff; width: 70%; margin: auto; font-size: 0.7em;background: #9b9898; border: 2px solid #727272">FormBuilder.control - creates a new FormControl<br>FormBuilder.group - creates a new FormGroup
+				</aside>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Steps for Template Driven</span>
+				
+				<ol>
+					<li class="fragment" data-fragment-index="1">ngModels to the input boxes -- read value</li>
+					<li class="fragment" data-fragment-index="2">ngSumit and ngForm</li>
+					<li class="fragment" data-fragment-index="3">HTML5 input validations</li>
+					<li class="fragment" data-fragment-index="4">ng-invalid and ng-valid css classes</li>
+					<li class="fragment" data-fragment-index="5">[ngModel] to pick the default values, but one way binding</li>
+					<li class="fragment" data-fragment-index="6">[(ngModel)] two way binding</li>
+					<li class="fragment" data-fragment-index="7">FormGroup ngModelGroup="userData"</li>
+					<li class="fragment" data-fragment-index="8">Radio button</li>
+					<li class="fragment" data-fragment-index="9">Form state, valid form</li>
+				</ol>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Steps for Data Driven</span>
+				<ol>
+					<li class="fragment" data-fragment-index="1">Create Form Group and Form Controls</li>
+					<li class="fragment" data-fragment-index="2">Synchronize the form with data-driven comp and bind the FormControls</li>
+					<li class="fragment" data-fragment-index="3">submit the form and log form value on the console</li>
+					<li class="fragment" data-fragment-index="4">Add validations to the FormControls</li>
+					<li class="fragment" data-fragment-index="5">If email is invalid show error message</li>
+					<li class="fragment" data-fragment-index="6">If form is invalid don't let the user submit it</li>
+					<li class="fragment" data-fragment-index="7">Group Data - Nested Form Group</li>
+					<li class="fragment" data-fragment-index="8">Bind radio type</li>
+					<li class="fragment" data-fragment-index="9">Custom Validation</li>
+					<li class="fragment" data-fragment-index="10">Form Array</li>
+					<li class="fragment" data-fragment-index="11">Add data in FormArray</li>
+					<li class="fragment" data-fragment-index="12">Async validation</li>
+				</ol>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Server Side Communication</span>
+				<ul>
+					<li class="fragment" data-fragment-index="1">Angular2 uses Http to get and save data with Promises or Observables.</li>
+					<li class="fragment" data-fragment-index="2">Angular2 isolates the http calls in a shared Service.</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/aaaa.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP-verson rc</span>
+				<br>
+				<img src="images/bbbb.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP-latest version</span>
+				<br>
+				<img src="images/cccc.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/dddd.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/eeee.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/ffff.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">RxJx</span>
+						<ul>
+							<li style="font-size:0.8em;" class="fragment" data-fragment-index="1">RxJx (Reactive Js) implements the asynchronous observable pattern and is widely used in Angular 2</li>
+						</ul>
+					<img class="fragment" data-fragment-index="2" src="images/gggg.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/hhhh.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/iiii.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">HTTP</span>
+				<br>
+				<img src="images/jjjj.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Routing</span>
+					<p class="fragment" data-fragment-index="1">Allows our application to navigate between different Components</p>
+				<ul>
+					<li class="fragment" data-fragment-index="2">Route Configuration</li>
+					<li class="fragment" data-fragment-index="3">Router Outlets</li>
+					<li class="fragment" data-fragment-index="4">Router Links</li>
+					<li class="fragment" data-fragment-index="5">Route Parameters</li>
+					<li class="fragment" data-fragment-index="6">Child Routers</li>
+				</ul>
+			</section>
+			<section>
+				<span id="title1" class="center-block">Routing</span>
+				<br>
+				<img src="images/kkkk.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Routing</span>
+				<br>
+				<img src="images/llll.png" alt="">
+			</section>
+			<section>
+				<span id="title1" class="center-block">Routing</span>
+				<br>
+				<img src="images/mmmm.png" alt="">
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		Reveal.initialize({
+			dependencies: [{
+				src: 'plugin/markdown/marked.js'
+			}, {
+				src: 'plugin/markdown/markdown.js'
+			}],
+			markdown: {
+				smartypants: true
+			},
+
+			// Display controls in the bottom right corner
+			controls: true,
+
+			// Display a presentation progress bar
+			progress: true,
+
+			// Display the page number of the current slide
+			slideNumber: true,
+
+			// Push each slide change to the browser history
+			history: true,
+            
+            center: false,
+
+		});
+		
+Reveal.configure({ transition: 'none', transitionSpeed: 'fast'});
+
+	</script>
+</body>
+
+</html>

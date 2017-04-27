@@ -1,0 +1,418 @@
+{
+  "time_limit": 300,
+  "quiz": {
+    "_id": 1,
+    "name": "AngularJS",
+    "description": "AngularJs Quiz",
+    "showScores": false
+  },
+  "questions": [
+    {
+      "text": "$rootScope is the parent of all of the scope variables.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Filters select a subset of items from an array and return a new array.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Using factory method, we first define a factory and then assign method to it.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "ng-model binds the values of AngularJS application data to HTML input controls.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "filter filter is applied to an expression using pipe character.",
+      "answers": [
+        {
+          "correct": true,
+          "text": "True"
+        },
+        {
+          "correct": false,
+          "text": "False"
+        }
+      ]
+    },
+    {
+      "text": "We can use $dirty and $invalid flags to do the form validations.",
+      "answers": [
+        {
+          "correct": true,
+          "text": "True"
+        },
+        {
+          "correct": false,
+          "text": "False"
+        }
+      ]
+    },
+    {
+      "text": "You cannot use AngularJS directives to tell AnguluarJS how to mix the data into the HTML template.",
+      "answers": [
+        {
+          "correct": false,
+          "text": "True"
+        },
+        {
+          "correct": true,
+          "text": "False"
+        }
+      ]
+    },
+    {
+      "text": "AngularJS is based on the _____ pattern.",
+      "answers": [
+        {
+          "correct": false,
+          "text": "VMC"
+        },
+        {
+          "correct": true,
+          "text": "MVC"
+        },
+        {
+          "correct": false,
+          "text": "MCV"
+        },
+        {
+          "correct": false,
+          "text": "CVM"
+        }
+      ]
+    },
+    {
+      "text": "AngularJS applications are a mix of _____",
+      "answers": [
+        {
+          "correct": false,
+          "text": "HTML and PHP"
+        },
+        {
+          "correct": false,
+          "text": "HTML and CrossScript"
+        },
+        {
+          "correct": false,
+          "text": "HTML and AngularScript"
+        },
+        {
+          "correct": true,
+          "text": "HTML and JavaScript"
+        }
+      ]
+    },
+    {
+      "text": "We need to tell AngularJS what part of our HTML page contains the AngularJS app. You do so by adding the _____ attribute to the root HTML element of the AngularJS app.",
+      "answers": [
+        {
+          "correct": true,
+          "text": "ng-app"
+        },
+        {
+          "correct": false,
+          "text": "ag-app"
+        },
+        {
+          "correct": false,
+          "text": "js-app"
+        },
+        {
+          "correct": false,
+          "text": "aj-app"
+        }
+      ]
+    },
+    {
+      "text": "There is a controller which takes single parameter. We call it _____ parameter.",
+      "answers": [
+        {
+          "correct": false,
+          "text": "$param"
+        },
+        {
+          "correct": false,
+          "text": "$control"
+        },
+        {
+          "correct": true,
+          "text": "$scope"
+        },
+        {
+          "correct": false,
+          "text": "$scont"
+        }
+      ]
+    },
+    {
+      "text": "The _____ directive is one of the most fundamental directives in AngujarJS. The _____ directive inserts the result of an expression into the HTML template.",
+      "answers": [
+        {
+          "correct": false,
+          "text": "Debug"
+        },
+        {
+          "correct": true,
+          "text": "Interpolation"
+        },
+        {
+          "correct": false,
+          "text": "Matching"
+        },
+        {
+          "correct": false,
+          "text": "Controller"
+        }
+      ]
+    },
+    {
+      "text": "First the HTML document is loaded into the browser, and evaluated by the browser. At this time the AngularJS _____",
+      "answers": [
+        {
+          "correct": false,
+          "text": "JavaScript file is loaded,"
+        },
+        {
+          "correct": false,
+          "text": "the angular global object is created,"
+        },
+        {
+          "correct": false,
+          "text": "your JavaScript which registers controller functions is executed,"
+        },
+        {
+          "correct": true,
+          "text": "all of above"
+        }
+      ]
+    },
+    {
+      "text": "If the data obtained from the model contains HTML elements, these are escaped before being inserted into the HTML template. The escaping means that the HTML is displayed as text, and not as HTML. This is done to prevent _____ ",
+      "answers": [
+        {
+          "correct": false,
+          "text": "SQL injection attacks"
+        },
+        {
+          "correct": false,
+          "text": "JS injection attacks"
+        },
+        {
+          "correct": true,
+          "text": "HTML injection attacks"
+        },
+        {
+          "correct": false,
+          "text": "Python injection attacks"
+        }
+      ]
+    },
+    {
+      "text": "AngularJS can show or hide HTML depending on the state of data in the model. You do so using a set of AngularJS directives such as _____ which are created specifically for that purpose.",
+      "answers": [
+        {
+          "correct": false,
+          "text": "ng-shown, ng-hidden"
+        },
+        {
+          "correct": true,
+          "text": "ng-show, ng-hide"
+        },
+        {
+          "correct": false,
+          "text": "nt-show, nt-hide"
+        },
+        {
+          "correct": false,
+          "text": "ng-shows, ng-hides"
+        }
+      ]
+    },
+    {
+      "text": "The _____ directive is used if you want to add or remove HTML elements from the DOM based on data in the model.",
+      "answers": [
+        {
+          "correct": true,
+          "text": "ng-switch"
+        },
+        {
+          "correct": false,
+          "text": "ng-model"
+        },
+        {
+          "correct": false,
+          "text": "ng-Disabled"
+        },
+        {
+          "correct": false,
+          "text": "ng-Cloak"
+        }
+      ]
+    },
+    {
+      "text": "Which of the following is true about lowercase filter?",
+      "answers": [
+        {
+          "correct": true,
+          "text": "Lowercase filter converts a text to lower case text."
+        },
+        {
+          "correct": false,
+          "text": "Lowercase filter is a function which takes text as input."
+        },
+        {
+          "correct": false,
+          "text": "Both of the above."
+        },
+        {
+          "correct": false,
+          "text": "None of the above."
+        }
+      ]
+    },
+    {
+      "text": "How angular.module works?",
+      "answers": [
+        {
+          "correct": false,
+          "text": "angular.module is used to create AngularJS modules along with its dependent modules."
+        },
+        {
+          "correct": false,
+          "text": "angular.module is primarily used to create application module."
+        },
+        {
+          "correct": true,
+          "text": "Both of the above."
+        },
+        {
+          "correct": false,
+          "text": "None of the above."
+        }
+      ]
+    },
+    {
+      "text": "Which of the following is true about ng-init directive?",
+      "answers": [
+        {
+          "correct": false,
+          "text": "ng-init directive initializes an AngularJS Application data."
+        },
+        {
+          "correct": false,
+          "text": "ng-init directive is used to put values to the variables to be used in the application."
+        },
+        {
+          "correct": true,
+          "text": "Both of the above."
+        },
+        {
+          "correct": false,
+          "text": "None of the above."
+        }
+      ]
+    },
+    {
+      "text": "Which of the following is true about uppercase filter?",
+      "answers": [
+        {
+          "correct": false,
+          "text": "Uppercase filter is a function which takes text as input."
+        },
+        {
+          "correct": true,
+          "text": "Uppercase filter converts a text to upper case text."
+        },
+        {
+          "correct": false,
+          "text": "Both of the above."
+        },
+        {
+          "correct": false,
+          "text": "None of the above."
+        }
+      ]
+    },
+    {
+      "text": "What is deep linking in AngularJS?",
+      "answers": [
+        {
+          "correct": true,
+          "text": "Deep linking allows you to encode the state of application in the URL so that it can be bookmarked."
+        },
+        {
+          "correct": false,
+          "text": "Deep linking is a SEO based technique."
+        },
+        {
+          "correct": false,
+          "text": "Deep linking refers to linking various views to a central page."
+        },
+        {
+          "correct": false,
+          "text": "None of the above."
+        }
+      ]
+    },
+    {
+      "text": "ng-disabled directive can enable a given control.",
+      "answers": [
+        {
+          "correct": false,
+          "text": "ng-disabled directive can disable a given control."
+        },
+        {
+          "correct": false,
+          "text": "ng-disabled directive can enable a given control."
+        },
+        {
+          "correct": false,
+          "text": "None of the above."
+        },
+        {
+          "correct": true,
+          "text": "Both of the above."
+        }
+      ]
+    }
+  ],
+  "users": ["puneetvashisht@gmail.com","tkhts@gmail.com"]
+}

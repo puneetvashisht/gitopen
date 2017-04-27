@@ -1,0 +1,214 @@
+{
+  "time_limit": 1200,
+  "quiz": {
+    "_id": 20,
+    "name": "Angular2",
+    "description": "RPS 20Jan2017",
+    "showScores": true
+  },
+  "questions": [	  
+    {
+      "text": "Select correct syntax ",
+      "answers": [
+        {
+          "text": "<li *ngFor='let n in names'>{{n}}</li>",
+          "correct": false
+        },
+        {
+          "text": "<li *ngFor='let n of names'>{{n}}</li>",
+          "correct": true
+        },
+        {
+          "text": "<li *ngFor='#n in names'>{{n}}</li>",
+          "correct": false
+        },
+        {
+          "text": "<li *ngFor='#n of names'>{{n}}</li>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "An Angular module is a class decorated with @NgModule metadata. The metadata:",
+      "answers": [
+        {
+          "text": "Declare which components, directives and pipes belong to the module.",
+          "correct": false
+        },
+        {
+          "text": "Make some of those classes public so that other component templates can use them.",
+          "correct": false
+        },
+        {
+          "text": "Provide services at the application level that any application component can use.",
+          "correct": false
+        },
+        {
+          "text": "All of the above",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "What is router-link in Angular 2?",
+      "answers": [
+        {
+          "text": "directive is use to declare link into view",
+          "correct": true
+        },
+        {
+          "text": "Its work as a placeholder for views to render then component",
+          "correct": false
+        },
+        {
+          "text": "Parameter to a component which rendered by the router",
+          "correct": false
+        },
+        {
+          "text": "None of the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "NgModule is imported from",
+      "answers": [
+        {
+          "text": "@angular/core",
+          "correct": true
+        },
+        {
+          "text": "@angular/platform-browser",
+          "correct": false
+        },
+        {
+          "text": "@angular/modules",
+          "correct": false
+        },
+        {
+          "text": "app.module",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Which one is not used by Angular 2",
+      "answers": [
+        {
+          "text": "ShadowDOM",
+          "correct": false
+        },
+        {
+          "text": "VirtualDOM",
+          "correct": true
+        },
+        {
+          "text": "ViewEncapsulation",
+          "correct": false
+        },
+        {
+          "text": "None of the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Modules are a great way to organize the application and extend it with capabilities from external libraries.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is Type Script?",
+      "answers": [
+        {
+          "text": "A typed superset of JavaScript",
+          "correct": false
+        },
+        {
+          "text": "A language which compile code into JavaScript",
+          "correct": false
+        },
+        {
+          "text": "It's not like other script language like Coffee script , Jquery etc. which run into client side",
+          "correct": false
+        },
+        {
+          "text": "All of the above",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "Which one is not built-in directive in angular2",
+      "answers": [
+        {
+          "text": "ngIf",
+          "correct": false
+        },
+        {
+          "text": "ngFor",
+          "correct": false
+        },
+        {
+          "text": "ngTemplate",
+          "correct": true
+        },
+        {
+          "text": "ngSwitch",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is Directive in Angular 2?",
+      "answers": [
+        {
+          "text": "That adds behavior to DOM element",
+          "correct": true
+        },
+        {
+          "text": "That has an embedded template",
+          "correct": false
+        },
+        {
+          "text": "Both",
+          "correct": false
+        },
+        {
+          "text": "None",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is router-outlet in Angular 2?",
+      "answers": [
+        {
+          "text": "directive is use to declare link into view",
+          "correct": false
+        },
+        {
+          "text": "Its work as a placeholder for views to render then component",
+          "correct": true
+        },
+        {
+          "text": "Parameter to a component which rendered by the router",
+          "correct": false
+        },
+        {
+          "text": "None of the above",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "users": ["puneetvashisht@gmail.com"]
+}

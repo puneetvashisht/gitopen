@@ -1,0 +1,32 @@
+{
+  "name": "openshift-cartridge-nodejs-template",
+  "version": "1.0.2",
+  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "private": true,
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.5",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.0.0",
+    "body-parser": "^1.15.2",
+    "socket.io": "^1.7.2",
+    "bcrypt-nodejs": "latest",
+    "express-session": "~1.0.0",
+    "log4js": "^0.6.38",
+    "log4js-extend": "^0.1.2",
+    "method-override": "~1.0.0",
+    "morgan": "~1.0.0",
+    "passport": "~0.1.17",
+    "passport-facebook": "~1.0.2",
+    "passport-google-oauth": "~0.1.5",
+    "passport-local": "~0.1.6",
+    "passport-twitter": "~1.0.2",
+    "reveal": "0.0.4"
+  }
+}

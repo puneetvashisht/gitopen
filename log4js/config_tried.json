@@ -1,0 +1,23 @@
+{
+  "appenders": [
+    {
+      "type": "file",
+      "filename": "./logs/server_log.log",
+      "maxLogSize": 20480,
+      "backups": 10,
+      "level": "TRACE",
+      "layout": {
+        "type": "pattern",
+        "#pattern": "%[%p%] #{'%c'.underline.grey} - %m",
+        "#pattern": "%[%p%] #{'%c'.underline} (#{'%x{filename}'}) - %m",
+        "pattern": "%[%5p%] #{'%x{filename}'.grey} - %m",
+        "tokens": {
+          "filename": "getCallerFile"
+        }
+      }
+    },
+    {
+      "type": "console"
+    }
+  ]
+}

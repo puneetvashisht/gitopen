@@ -1,0 +1,404 @@
+{
+  "time_limit": 1200,
+  "quiz": {
+    "_id": 20,
+    "name": "Angular2",
+    "description": "Angular2 RPS 20Jan2017",
+    "showScores": true
+  },
+  "questions": [
+    {
+      "text": "Angular is built on the latest standards of the web platform. Targeting such a wide range of browsers is challenging because they do not support all features of modern browsers. You compensate by loading polyfill scripts ('polyfills') on the host web page (index.html) that implement missing features in JavaScript.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "For every Angular component we write, we may define not only an HTML template, but also the CSS styles that go with that template. But we cannot write media queries here.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "Component styles have a few special selectors from the world of shadow DOM style scoping. These selectors are",
+      "answers": [
+        {
+          "text": ":host",
+          "correct": false
+        },
+        {
+          "text": ":host-context",
+          "correct": false
+        },
+        {
+          "text": "/deep/",
+          "correct": false
+        },
+        {
+          "text": ">>>",
+          "correct": false
+        },
+        {
+          "text": "All of the above",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "Select correct syntax ",
+      "answers": [
+        {
+          "text": "<li *ngFor='let n in names'>{{n}}</li>",
+          "correct": false
+        },
+        {
+          "text": "<li *ngFor='let n of names'>{{n}}</li>",
+          "correct": true
+        },
+        {
+          "text": "<li *ngFor='#n in names'>{{n}}</li>",
+          "correct": false
+        },
+        {
+          "text": "<li *ngFor='#n of names'>{{n}}</li>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What's new in Angular 2?",
+      "answers": [
+        {
+          "text": "The new Angular version will be focused on the development of mobile apps",
+          "correct": false
+        },
+        {
+          "text": "Various modules will be removed from Angular’s core, resulting in better performance.",
+          "correct": false
+        },
+        {
+          "text": "Angular 2 will target ES6 and 'evergreen' modern browsers (those automatically updated to the latest version)",
+          "correct": false
+        },
+        {
+          "text": "All of the above",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "An Angular module is a class decorated with @NgModule metadata. The metadata:",
+      "answers": [
+        {
+          "text": "Declare which components, directives and pipes belong to the module.",
+          "correct": false
+        },
+        {
+          "text": "Make some of those classes public so that other component templates can use them.",
+          "correct": false
+        },
+        {
+          "text": "Provide services at the application level that any application component can use.",
+          "correct": false
+        },
+        {
+          "text": "All of the above",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "What is router-link in Angular 2?",
+      "answers": [
+        {
+          "text": "directive is use to declare link into view",
+          "correct": true
+        },
+        {
+          "text": "Its work as a placeholder for views to render then component",
+          "correct": false
+        },
+        {
+          "text": "Parameter to a component which rendered by the router",
+          "correct": false
+        },
+        {
+          "text": "None of the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "NgModule is imported from",
+      "answers": [
+        {
+          "text": "@angular/core",
+          "correct": true
+        },
+        {
+          "text": "@angular/platform-browser",
+          "correct": false
+        },
+        {
+          "text": "@angular/modules",
+          "correct": false
+        },
+        {
+          "text": "app.module",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Which one is not used by Angular 2",
+      "answers": [
+        {
+          "text": "ShadowDOM",
+          "correct": false
+        },
+        {
+          "text": "VirtualDOM",
+          "correct": true
+        },
+        {
+          "text": "ViewEncapsulation",
+          "correct": false
+        },
+        {
+          "text": "None of the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Select one statement which is not correct",
+      "answers": [
+        {
+          "text": "ngDoCheck() Called during every change detection run",
+          "correct": false
+        },
+        {
+          "text": "ngOnInit() Initialize the directive/component after Angular first displays the data-bound properties and sets the directive/component's input properties",
+          "correct": false
+        },
+        {
+          "text": "ngOnDestroy() Called after Angular destroys the directive/component",
+          "correct": true
+        },
+        {
+          "text": "All are correct",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Modules are a great way to organize the application and extend it with capabilities from external libraries.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is RouteParams in Angular 2?",
+      "answers": [
+        {
+          "text": "directive is use to declare link into view",
+          "correct": false
+        },
+        {
+          "text": "Its work as a placeholder for views to render then component",
+          "correct": false
+        },
+        {
+          "text": "Parameter to a component which rendered by the router",
+          "correct": true
+        },
+        {
+          "text": "None of the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Angular 2 is no longer containing Filters",
+      "answers": [
+        {
+          "text": "To increase performance",
+          "correct": true
+        },
+        {
+          "text": "Only change in angular2 is filters are renamed to Pipes",
+          "correct": false
+        },
+        {
+          "text": "To gain modularity",
+          "correct": false
+        },
+        {
+          "text": "Filters are still existing in angular2",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "To implement routing, we’ll need the Angular Router. What is Angular Router?",
+      "answers": [
+        {
+          "text": "The Angular router is an external, optional Angular NgModule called RouterModule",
+          "correct": false
+        },
+        {
+          "text": "Combination of multiple provided services (RouterModule), multiple directives (RouterOutlet, RouterLink, RouterLinkActive), and a configuration (Routes)",
+          "correct": false
+        },
+        {
+          "text": "Both",
+          "correct": true
+        },
+        {
+          "text": "None",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is Type Script?",
+      "answers": [
+        {
+          "text": "A typed superset of JavaScript",
+          "correct": false
+        },
+        {
+          "text": "A language which compile code into JavaScript",
+          "correct": false
+        },
+        {
+          "text": "It's not like other script language like Coffee script , Jquery etc. which run into client side",
+          "correct": false
+        },
+        {
+          "text": "All of the above",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "Which one is not built-in directive in angular2",
+      "answers": [
+        {
+          "text": "ngIf",
+          "correct": false
+        },
+        {
+          "text": "ngFor",
+          "correct": false
+        },
+        {
+          "text": "ngTemplate",
+          "correct": true
+        },
+        {
+          "text": "ngSwitch",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is Directive in Angular 2?",
+      "answers": [
+        {
+          "text": "That adds behavior to DOM element",
+          "correct": true
+        },
+        {
+          "text": "That has an embedded template",
+          "correct": false
+        },
+        {
+          "text": "Both",
+          "correct": false
+        },
+        {
+          "text": "None",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "The most common use of NgZone service is to optimize performance when starting a work consisting of one or more asynchronous tasks that don't require UI updates.",
+      "answers": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Select incorrect statement",
+      "answers": [
+        {
+          "text": "An Observable is a collection that arrives over time.",
+          "correct": false
+        },
+        {
+          "text": "CORS is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the resource originated.",
+          "correct": false
+        },
+        {
+          "text": "NPM is command line utility to install Node.js packages, do version management and dependency management of Node.js packages.",
+          "correct": false
+        },
+        {
+          "text": "None",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "What is router-outlet in Angular 2?",
+      "answers": [
+        {
+          "text": "directive is use to declare link into view",
+          "correct": false
+        },
+        {
+          "text": "Its work as a placeholder for views to render then component",
+          "correct": true
+        },
+        {
+          "text": "Parameter to a component which rendered by the router",
+          "correct": false
+        },
+        {
+          "text": "None of the above",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "users": []
+}

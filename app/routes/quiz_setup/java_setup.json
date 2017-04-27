@@ -1,0 +1,451 @@
+{
+  "time_limit": 600,
+  "quiz": {
+    "_id": 2,
+    "name": "Java",
+    "description": "Java Quiz",
+    "showScores": false
+  },
+  "questions": [
+    {
+      "text": "Java is a _____ language.",
+      "answers": [
+        {
+          "text": "weakly typed",
+          "correct": false
+        },
+        {
+          "text": "strogly typed",
+          "correct": true
+        },
+        {
+          "text": "moderate typed",
+          "correct": false
+        },
+        {
+          "text": "None of these",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "How many primitive data types are there in Java?",
+      "answers": [
+        {
+          "text": 6,
+          "correct": false
+        },
+        {
+          "text": 7,
+          "correct": false
+        },
+        {
+          "text": 8,
+          "correct": true
+        },
+        {
+          "text": 9,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "In Java byte, short, int and long all of these are",
+      "answers": [
+        {
+          "text": "signed",
+          "correct": true
+        },
+        {
+          "text": "unsigned",
+          "correct": false
+        },
+        {
+          "text": "Both of the above",
+          "correct": false
+        },
+        {
+          "text": "None of these",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Size of int in Java is",
+      "answers": [
+        {
+          "text": "16 bit",
+          "correct": false
+        },
+        {
+          "text": "32 bit",
+          "correct": true
+        },
+        {
+          "text": "64 bit",
+          "correct": false
+        },
+        {
+          "text": "Depends on execution environment",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "The smallest integer type is _____ and its size is _____ bits.",
+      "answers": [
+        {
+          "text": "short, 8",
+          "correct": false
+        },
+        {
+          "text": "byte, 8",
+          "correct": true
+        },
+        {
+          "text": "short, 16",
+          "correct": false
+        },
+        {
+          "text": "byte, 16",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Size of float and double in Java is",
+      "answers": [
+        {
+          "text": "32 and 64",
+          "correct": true
+        },
+        {
+          "text": "64 and 64",
+          "correct": false
+        },
+        {
+          "text": "32 and 32",
+          "correct": false
+        },
+        {
+          "text": "64 and 32",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Determine output:<br/>class A{<br/>public static void main(String args[]){<br/>int x;<br/>x = 10;<br/>if(x == 10){<br/>int y = 20;<br/>System.out.print(''x and y: ''+ x + ''  '' + y);<br/>y = x*2;<br/>}<br/>y = 100;<br/>System.out.print(''x and y: '' + x + '' '' + y);<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "10 20 10 100",
+          "correct": false
+        },
+        {
+          "text": "10 20 10 20",
+          "correct": false
+        },
+        {
+          "text": "10 20 10 10",
+          "correct": false
+        },
+        {
+          "text": "Error",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "Automatic type conversion in Java takes place when",
+      "answers": [
+        {
+          "text": "Two type are compatible and size of destination type is shorter than source type.",
+          "correct": false
+        },
+        {
+          "text": "Two type are compatible and size of destination type is equal of source type.",
+          "correct": false
+        },
+        {
+          "text": "Two type are compatible and size of destination type is larger than source type.",
+          "correct": true
+        },
+        {
+          "text": "All of the above",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Which of the following automatic type conversion will be possible?",
+      "answers": [
+        {
+          "text": "short to int",
+          "correct": false
+        },
+        {
+          "text": "byte to int",
+          "correct": false
+        },
+        {
+          "text": "int to long",
+          "correct": true
+        },
+        {
+          "text": "long to int",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is the output of the following program?<br/>class A{<br/>public static void main(String args[]){<br/>byte b;<br/>int i = 258;<br/>double d = 325.59;<br/>b = (byte) i;<br/>System.out.print(b);<br/><br/>i = (int) d;<br/>System.out.print(i);<br/><br/>b = (byte) d;<br/>System.out.print(b);<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "258 325 325",
+          "correct": false
+        },
+        {
+          "text": "258 326 326",
+          "correct": false
+        },
+        {
+          "text": "2 325 69",
+          "correct": true
+        },
+        {
+          "text": "Error",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Determine output:<br/>public class Test {<br/>static void test(float x){<br/>System.out.print(''float'');<br/>}<br/><br/>static void test(double x){<br/>System.out.print(''double'');<br/><br/>}<br/><br/>public static void main(String[] args){<br/>test(99.9);<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "float",
+          "correct": false
+        },
+        {
+          "text": "double",
+          "correct": true
+        },
+        {
+          "text": "Compilation Error",
+          "correct": false
+        },
+        {
+          "text": "Exception is thrown at runtime",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "The following fraction of code<br/>double STATIC = 2.5;<br/>System.out.println( STATIC );",
+      "answers": [
+        {
+          "text": "Prints 2.5",
+          "correct": true
+        },
+        {
+          "text": "Rraises an error as STATIC is used as a variable which is a keyword",
+          "correct": false
+        },
+        {
+          "text": "Raises an exception",
+          "correct": false
+        },
+        {
+          "text": "None of these",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What would be the output of the following fraction of code ?<br/>int Integer = 34 ;<br/>char String = 'S' ;<br/>System.out.print( Integer ) ;<br/>System.out.print( String ) ;",
+      "answers": [
+        {
+          "text": "Does not compile as Integer and String are API class names.",
+          "correct": false
+        },
+        {
+          "text": "Throws exception.",
+          "correct": false
+        },
+        {
+          "text": "34",
+          "correct": false
+        },
+        {
+          "text": "S",
+          "correct": false
+        },
+        {
+          "text": "34 S",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "What will be output of the following program code?<br/>public class Test{<br/>public static void main(String[] a){<br/>short x = 10;<br/>x = x*5;<br/>System.out.print(x);<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "50",
+          "correct": false
+        },
+        {
+          "text": "10",
+          "correct": false
+        },
+        {
+          "text": "Compilation Error",
+          "correct": true
+        },
+        {
+          "text": "None of these",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Determine output:<br/>public class Test{<br/>int i = 34;<br/>public static void main(String args[]){<br/>Test t1 = new Test();<br/>Test t2 = new Test();<br/>t1.i = 65;<br/>System.out.print(t1.i);<br/>System.out.print(t2.i);<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "34 34",
+          "correct": false
+        },
+        {
+          "text": "65 34",
+          "correct": true
+        },
+        {
+          "text": "65 65",
+          "correct": false
+        },
+        {
+          "text": "34 65",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "The following program:<br/>public class Test{<br/>static boolean isOK;<br/>public static void main(String args[]){<br/>System.out.print(isOK);<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "Prints true",
+          "correct": false
+        },
+        {
+          "text": "Prints false",
+          "correct": true
+        },
+        {
+          "text": "Will not compile as boolean is not initialized",
+          "correct": false
+        },
+        {
+          "text": "Will not compile as boolean can never be static",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "In Java, the word true is _____",
+      "answers": [
+        {
+          "text": "A Java keyword",
+          "correct": false
+        },
+        {
+          "text": "A Boolean literal",
+          "correct": true
+        },
+        {
+          "text": "Same as value 1",
+          "correct": false
+        },
+        {
+          "text": "Same as value 0",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What will the output of the following program?<br/>public class Test{<br/>public static void main(String args[]){<br/>float f = (1 / 4) * 10;<br/>int i = Math.round(f);<br/>System.out.println(i);<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "2",
+          "correct": false
+        },
+        {
+          "text": "0",
+          "correct": true
+        },
+        {
+          "text": "3",
+          "correct": false
+        },
+        {
+          "text": "2.5",
+          "correct": false
+        },
+        {
+          "text": "25",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is the output for the below code ?<br/>class A{<br/>int k;<br/>boolean istrue;<br/>static int p;<br/>public void printValue(){<br/>System.out.print(k);<br/>System.out.print(istrue);<br/>System.out.print(p);<br/>}<br/>}<br/><br/>public class Test{<br/>public static void main(String argv[]){<br/>A a = new A();<br/>a.printValue();<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "0 false 0",
+          "correct": true
+        },
+        {
+          "text": "0 true 0",
+          "correct": false
+        },
+        {
+          "text": "0 0 0",
+          "correct": false
+        },
+        {
+          "text": "Compile error - static variable must be initialized before use.",
+          "correct": false
+        },
+        {
+          "text": "None of these",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is the output of the following program?<br/>public class Test{<br/>static int x  = 10 ;<br/>public static void main(String[] a){<br/>Test test = new Test( );<br/>Test test1 = new Test( ) ;<br/>test.x  +=  1 ;<br/>System.out.println(  test.x + test1.x ) ;<br/>}<br/>}",
+      "answers": [
+        {
+          "text": "20",
+          "correct": false
+        },
+        {
+          "text": "21",
+          "correct": false
+        },
+        {
+          "text": "22",
+          "correct": true
+        },
+        {
+          "text": "Compilation Error",
+          "correct": false
+        },
+        {
+          "text": "Throws Exception",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "users": [
+    "puneetvashisht@gmail.com",
+    "tkhts@gmail.com"
+  ]
+}
